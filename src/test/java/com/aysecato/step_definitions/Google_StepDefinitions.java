@@ -15,7 +15,7 @@ public class Google_StepDefinitions {
 
     @Given("User is on Google home page")
     public void user_is_on_google_home_page() {
-        Driver.get().get(ConfigurationReader.getProperty("url"));
+        Driver.get().get(ConfigurationReader.getProperty("googleUrl"));
     }
 
     @When("User searches for apple")
